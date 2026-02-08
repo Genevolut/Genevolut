@@ -2,160 +2,133 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Genevolut – Android App Development</title>
-  <meta name="description" content="Genevolut designs, builds, and maintains reliable Android apps. Creator of Genevolut – Lock In, live on Google Play." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Genevolut</title>
+
   <style>
     body {
-      margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: #111;
-      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #1f2933;
       line-height: 1.6;
     }
-    header {
-      padding: 64px 24px;
-      border-bottom: 1px solid #eaeaea;
-    }
+
     .container {
-      max-width: 960px;
+      max-width: 900px;
       margin: 0 auto;
+      padding: 48px 24px;
     }
-    .logo {
+
+    header {
       display: flex;
       align-items: center;
       gap: 16px;
-      margin-bottom: 32px;
+      margin-bottom: 48px;
     }
-    .logo img {
-      height: 48px;
-      width: auto;
+
+    header img {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
     }
+
     h1 {
-      font-size: 2.5rem;
-      margin: 0 0 16px 0;
-      font-weight: 600;
+      font-size: 28px;
+      margin: 0;
     }
+
     h2 {
-      font-size: 1.75rem;
-      margin: 0 0 16px 0;
-      font-weight: 600;
+      margin-top: 48px;
+      font-size: 22px;
     }
+
     p {
-      margin: 0 0 16px 0;
-      font-size: 1.05rem;
+      max-width: 720px;
     }
-    section {
-      padding: 56px 24px;
-      border-bottom: 1px solid #f0f0f0;
-    }
+
     ul {
       padding-left: 20px;
     }
-    li {
-      margin-bottom: 8px;
-    }
-    .card {
-      background: #fafafa;
-      padding: 24px;
-      border-radius: 12px;
-      border: 1px solid #eaeaea;
-    }
-    .cta {
-      font-weight: 500;
-    }
-    footer {
-      padding: 40px 24px;
-      text-align: center;
-      color: #666;
-      font-size: 0.9rem;
-    }
+
     a {
-      color: #111;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
       text-decoration: underline;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      margin-top: 64px;
+      font-size: 14px;
+      color: #6b7280;
     }
   </style>
 </head>
+
 <body>
+  <div class="container">
 
-  <header>
-    <div class="container">
-      <div class="logo">
-        <!-- Replace logo.png with your actual logo file -->
-        <img src="circle.png" alt="Genevolut logo" />
-        <strong>Genevolut</strong>
-      </div>
-      <h1>Android apps, built and shipped properly.</h1>
-      <p>
-        Genevolut designs, builds, publishes, and maintains Android applications for individuals and organisations.
-        We focus on reliability, clarity, and long-term maintainability.
-      </p>
-    </div>
-  </header>
+    <header>
+      <img src="circle.png" alt="Genevolut logo">
+      <h1>Genevolut</h1>
+    </header>
 
-  <section>
-    <div class="container">
-      <h2>What we do</h2>
-      <p>
-        We provide end-to-end Android app development, handling both the technical and practical aspects required to
-        launch and maintain a successful product on Google Play.
-      </p>
+    <p>
+      Genevolut designs, builds, publishes, and maintains Android applications for individuals and organisations.
+      We focus on reliable, user-friendly mobile experiences that are built to scale and maintained properly over time.
+    </p>
+
+    <h2>What we do</h2>
+    <div class="card">
       <ul>
-        <li>Android app design and development (Jetpack Compose)</li>
-        <li>Firebase authentication, databases, and backend services</li>
-        <li>Push notifications and background services</li>
-        <li>Google Play Store setup, publishing, and compliance</li>
-        <li>Ongoing updates, bug fixes, and feature expansion</li>
+        <li>Android app design and development</li>
+        <li>Firebase authentication and backend services</li>
+        <li>Notifications and background services</li>
+        <li>Google Play Store publishing and compliance</li>
+        <li>Ongoing updates, fixes, and feature development</li>
       </ul>
     </div>
-  </section>
 
-  <section>
-    <div class="container">
-      <h2>What we’ve built</h2>
-      <div class="card">
-        <p class="cta"><strong>Genevolut – Lock In</strong></p>
-        <p>
-          A productivity-focused Android app designed to help users commit to routines and stay accountable.
-          Built, published, and actively maintained by Genevolut.
-        </p>
-        <p>
-          Live on Google Play.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <h2>Who we work with</h2>
+    <h2>What we have built</h2>
+    <div class="card">
       <p>
-        Genevolut works best with teams and organisations that want a dependable Android presence without managing
-        the technical complexity themselves.
+        <strong>Genevolut – Lock In</strong><br>
+        A productivity and reminder application currently live on Google Play.
       </p>
       <p>
-        Whether you are validating a new idea or improving engagement with an existing service, we focus on building
-        apps that are stable, scalable, and easy to maintain.
+        <a href="https://play.google.com/store/apps/details?id=com.alarmreminderapp.live" target="_blank">
+          View on Google Play
+        </a>
       </p>
     </div>
-  </section>
 
-  <section>
-    <div class="container">
-      <h2>Contact</h2>
+    <h2>Contact</h2>
+    <div class="card">
       <p>
-        If you’d like to discuss a potential project or explore whether an Android app makes sense for your product,
-        get in touch.
+        If you’d like to discuss a project or explore whether an Android app makes sense for your organisation,
+        feel free to get in touch.
       </p>
       <p>
-        Email: <a href="mailto:contact@genevolut.com">contact@genevolut.com</a>
+        Email: <a href="mailto:hello@genevolut.com">hello@genevolut.com</a>
       </p>
     </div>
-  </section>
 
-  <footer>
-    <p>© Genevolut</p>
-  </footer>
+    <footer>
+      © Genevolut
+    </footer>
 
+  </div>
 </body>
 </html>
